@@ -1,0 +1,25 @@
+{
+  "sizes": [
+    15,
+    25,
+    35
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "agents": [
+    "reflex",
+    "tabular",
+    "simple",
+    "improved",
+    "no-danger"
+  ],
+  "budget": 10000,
+  "eval_games": 100,
+  "max_steps": 500,
+  "output": "results/main"
+}

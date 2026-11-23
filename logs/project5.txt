@@ -1,0 +1,102 @@
+
+Question q1
+===========
+*** q1) check_perceptron
+Sanity checking perceptron...
+Sanity checking perceptron weight updates...
+Sanity checking complete. Now training perceptron
+*** PASS: check_perceptron
+
+### Question q1: 5/5 ###
+
+Question q2
+===========
+*** q2) check_regression
+Regression epochs: 180 loss: 0.00797306653112173
+Your final loss is: 0.007743
+*** PASS: check_regression
+
+### Question q2: 5/5 ###
+
+Question q3
+===========
+*** q3) check_digit_classification
+Digits epoch: 1 dev accuracy: 0.9548
+Digits epoch: 2 dev accuracy: 0.9658
+Digits epoch: 3 dev accuracy: 0.9726
+Digits epoch: 4 dev accuracy: 0.9774
+Digits epoch: 5 dev accuracy: 0.9764
+Digits epoch: 6 dev accuracy: 0.9804
+Your final test set accuracy is: 97.780000%
+*** PASS: check_digit_classification
+
+### Question q3: 5/5 ###
+
+Question q4
+===========
+*** q4) check_lang_id
+Alphabet: abcdefghijklmnopqrstuvwxyzáäèéêëíïñóöúüąćęłńśźż
+
+Language epoch: 1 dev accuracy: 0.698
+Language epoch: 2 dev accuracy: 0.768
+Language epoch: 3 dev accuracy: 0.788
+Language epoch: 4 dev accuracy: 0.828
+Language epoch: 5 dev accuracy: 0.834
+Language epoch: 6 dev accuracy: 0.818
+Language epoch: 7 dev accuracy: 0.836
+Language epoch: 8 dev accuracy: 0.834
+Language epoch: 9 dev accuracy: 0.868
+Your final test set accuracy is: 81.800000%
+*** PASS: check_lang_id
+
+### Question q4: 5/5 ###
+
+Question q5
+===========
+*** q5) check_convolution
+Your final test set accuracy is: 100.000000%
+*** PASS: check_convolution
+
+### Question q5: 3/3 ###
+
+Question q6
+===========
+*** q6) check_attention
+*** PASS: check_attention
+
+### Question q6: 2/2 ###
+
+Finished at 22:34:01
+
+Provisional grades
+==================
+Question q1: 5/5
+Question q2: 5/5
+Question q3: 5/5
+Question q4: 5/5
+Question q5: 3/3
+Question q6: 2/2
+------------------
+Total: 25/25
+
+Your grades are NOT yet registered.  To register your grades, make sure
+to follow your instructor's guidelines to receive credit on your project.
+
+D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py:334: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  expected_prediction = np.where(np.dot(point, p.get_weights().data.T) >= 0, 1, -1).item()
+D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py:394: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+  accuracy = np.mean(np.where(np.dot(dataset.x, model.get_weights().data.T) >= 0.0, 1.0, -1.0) == dataset.y)
+D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\backend.py:392: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_new.cpp:252.)
+  return torch.nn.functional.pad(torch.tensor(xs, dtype=torch.float),(0,0,0,0,0,10 - len(xs))), torch.tensor(y, dtype=torch.float)
+D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py:517: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  inp_xs = torch.tensor(inp_xs[:word_length], requires_grad=True)
+D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py:536: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  inp_xs = torch.tensor(inp_xs[:word_length], requires_grad=True)
+D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\backend.py:420: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  all_predicted_probs = [sftmax(torch.tensor(i)) for i in all_predicted]
+D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\.venv\Lib\site-packages\torch\nn\modules\module.py:1787: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  return self._call_impl(*args, **kwargs)
+D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py:574: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  inp_x = torch.tensor(dataset[:batch_size]['x'], dtype=torch.float, requires_grad=True)
+D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py:575: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  inp_y = torch.tensor(dataset[:batch_size]['label'], dtype=torch.float, requires_grad=True)

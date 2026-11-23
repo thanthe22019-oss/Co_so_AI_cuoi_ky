@@ -1,0 +1,4 @@
+numpy==2.4.6
+matplotlib==3.10.9
+python-docx==1.2.0
+# Install CPU torch separately with its official wheel index (see README).

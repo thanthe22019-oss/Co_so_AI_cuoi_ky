@@ -1,0 +1,6 @@
+{
+  "workers": 8,
+  "source": "experiments/parallel.py",
+  "reused_runs": 24,
+  "new_runs": 39
+}

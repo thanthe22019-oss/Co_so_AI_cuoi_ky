@@ -1,0 +1,142 @@
+
+Question q1
+===========
+*** q1) check_perceptron
+Sanity checking perceptron...
+Traceback (most recent call last):
+  File "D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py", line 207, in main
+    fn(tracker)
+    ~~^^^^^^^^^
+  File "D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py", line 297, in check_perceptron
+    p_weights = p.get_weights()
+  File "D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\models.py", line 51, in get_weights
+    return self.w
+           ^^^^^^
+  File "D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1976, in __getattr__
+    raise AttributeError(
+        f"'{type(self).__name__}' object has no attribute '{name}'"
+    )
+AttributeError: 'PerceptronModel' object has no attribute 'w'
+
+*** FAIL
+
+### Question q1: 0/5 ###
+
+Question q2
+===========
+*** q2) check_regression
+Traceback (most recent call last):
+  File "D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py", line 207, in main
+    fn(tracker)
+    ~~^^^^^^^^^
+  File "D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py", line 417, in check_regression
+    verify_node(loss, 'tensor', (1,), "regression_loss()")
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py", line 273, in verify_node
+    assert node is not None, (
+           ^^^^^^^^^^^^^^^^
+AssertionError: regression_loss() should return a node object, not None
+
+*** FAIL
+
+### Question q2: 0/5 ###
+
+Question q3
+===========
+*** q3) check_digit_classification
+Traceback (most recent call last):
+  File "D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py", line 207, in main
+    fn(tracker)
+    ~~^^^^^^^^^
+  File "D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py", line 478, in check_digit_classification
+    verify_node(loss, 'tensor', (1,), "digitclassifier_loss()")
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py", line 273, in verify_node
+    assert node is not None, (
+           ^^^^^^^^^^^^^^^^
+AssertionError: digitclassifier_loss() should return a node object, not None
+
+*** FAIL
+
+### Question q3: 0/5 ###
+
+Question q4
+===========
+*** q4) check_lang_id
+Alphabet: abcdefghijklmnopqrstuvwxyzáäèéêëíïñóöúüąćęłńśźż
+
+Traceback (most recent call last):
+  File "D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py", line 207, in main
+    fn(tracker)
+    ~~^^^^^^^^^
+  File "D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py", line 520, in check_lang_id
+    verify_node(output_node, 'tensor', (batch_size, len(dataset.language_names)), "LanguageIDModel.forward()")
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py", line 273, in verify_node
+    assert node is not None, (
+           ^^^^^^^^^^^^^^^^
+AssertionError: LanguageIDModel.forward() should return a node object, not None
+
+*** FAIL
+
+### Question q4: 0/5 ###
+
+Question q5
+===========
+*** q5) check_convolution
+Traceback (most recent call last):
+  File "D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py", line 207, in main
+    fn(tracker)
+    ~~^^^^^^^^^
+  File "D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py", line 578, in check_convolution
+    verify_node(loss, 'tensor', (1,), "DigitClassificationModel.run()")
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py", line 273, in verify_node
+    assert node is not None, (
+           ^^^^^^^^^^^^^^^^
+AssertionError: DigitClassificationModel.run() should return a node object, not None
+
+*** FAIL
+
+### Question q5: 0/3 ###
+
+Question q6
+===========
+*** q6) check_attention
+Traceback (most recent call last):
+  File "D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py", line 207, in main
+    fn(tracker)
+    ~~^^^^^^^^^
+  File "D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py", line 644, in check_attention
+    assert torch.all(torch.isclose(output, att_block(input))), "The output returned by Attention() does not match expected output"
+                     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: isclose(): argument 'other' (position 2) must be Tensor, not NoneType
+
+*** FAIL
+
+### Question q6: 0/2 ###
+
+Finished at 22:27:40
+
+Provisional grades
+==================
+Question q1: 0/5
+Question q2: 0/5
+Question q3: 0/5
+Question q4: 0/5
+Question q5: 0/3
+Question q6: 0/2
+------------------
+Total: 0/25
+
+Your grades are NOT yet registered.  To register your grades, make sure
+to follow your instructor's guidelines to receive credit on your project.
+
+D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\backend.py:392: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_new.cpp:252.)
+  return torch.nn.functional.pad(torch.tensor(xs, dtype=torch.float),(0,0,0,0,0,10 - len(xs))), torch.tensor(y, dtype=torch.float)
+D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py:517: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  inp_xs = torch.tensor(inp_xs[:word_length], requires_grad=True)
+D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py:574: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  inp_x = torch.tensor(dataset[:batch_size]['x'], dtype=torch.float, requires_grad=True)
+D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project5\machinelearning\autograder.py:575: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  inp_y = torch.tensor(dataset[:batch_size]['label'], dtype=torch.float, requires_grad=True)

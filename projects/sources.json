@@ -1,0 +1,22 @@
+[
+  {
+    "project": 1,
+    "url": "https://inst.eecs.berkeley.edu/~cs188/sp26/assets/projects/search.zip",
+    "sha256": "d212f664b97ee38548dd868dfc5ce187f1a2147cfb90b0469e4fffe6e0a160c3"
+  },
+  {
+    "project": 2,
+    "url": "https://inst.eecs.berkeley.edu/~cs188/sp26/assets/projects/multiagent.zip",
+    "sha256": "cc762e929d867acb92302c00610c91f9c7560a7406758e517df9964e2d1c0f15"
+  },
+  {
+    "project": 3,
+    "url": "https://inst.eecs.berkeley.edu/~cs188/sp26/assets/projects/reinforcement.zip",
+    "sha256": "93180c14ee1fa6f95cb7539e53d566229ee807eec690b562daa17ec83e98ad44"
+  },
+  {
+    "project": 5,
+    "url": "https://inst.eecs.berkeley.edu/~cs188/sp26/assets/projects/machinelearning.zip",
+    "sha256": "49da679a3f4f290003b5bd77bd5f17f9383d4a888877e1fd5b48a360fed5649c"
+  }
+]

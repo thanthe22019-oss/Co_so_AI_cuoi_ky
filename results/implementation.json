@@ -1,0 +1,14 @@
+{
+  "projects/project1/search/search.py": "5c9f909cf9500ce2892d11b17160618a937c429f349ff18e30ae993f51e8024e",
+  "projects/project1/search/searchAgents.py": "2f7634a7bd9da671e40d7fa2dd398b9370f783a6ec6218beadef8a026d8be334",
+  "projects/project2/multiagent/multiAgents.py": "84418b77687a8b835483fdf89e3843ed020beba02b25f4c089a4034c8eb94aac",
+  "projects/project3/reinforcement/qlearningAgents.py": "f8f9da2b1e1255f0f3ef61e95b3fba9721f47b49b71eb607ef9b8b459c2ac8e2",
+  "projects/project3/reinforcement/valueIterationAgents.py": "f3c2b615c9ee713183570bb65fd2b86e333d960a2c9f4aff859f84c34ae2c0fc",
+  "projects/project3/reinforcement/analysis.py": "5277306a2be6c807ff204c52a2d9efee51105a7a05bc949a700aaa1251293c01",
+  "projects/project5/machinelearning/models.py": "8d27867b281bfddc6c1492774e90917069f04ebf5591f2430b25c8e42198aa25",
+  "projects/project5/machinelearning/train.py": "115b8235c25de6f81aaa6036db05be20c3587800f3f1ebb75bc22587a4b73431",
+  "projects/project5/machinelearning/losses.py": "9595c8f2b1649c77f7abf5e3abb7ec47b9c12f12e83d5294f71460d230c12d23",
+  "experiments/benchmark.py": "65f5bcd9f8f2657836a6f72dac1707a03ddeabef50dedb3b4a8eb904f869fcf7",
+  "experiments/parallel.py": "dc07022a1612c5b1d3e8701c060b63032a117a83e546be8c0f910387519b92f3",
+  "experiments/summarize.py": "e3001a318c8861361e83af38c9e4f801a5cb6eed92e3f1fc2b5bb5c15fb21e61"
+}

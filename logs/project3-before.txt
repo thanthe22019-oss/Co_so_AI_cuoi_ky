@@ -1,0 +1,117 @@
+Starting on 11-15 at 22:13:07
+
+Question q1
+===========
+
+*** Method not implemented: computeActionFromValues at line 92 of D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project3\reinforcement\valueIterationAgents.py
+*** FAIL: Terminated with a string exception.
+
+### Question q1: 0/5 ###
+
+
+Question q2
+===========
+
+*** Method not implemented: computeActionFromValues at line 92 of D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project3\reinforcement\valueIterationAgents.py
+*** FAIL: Terminated with a string exception.
+
+### Question q2: 0/1 ###
+
+
+Question q3
+===========
+
+*** FAIL: test_cases\q3\1-question-3.1.test
+***     Did not return a (discount, noise, living reward) triple; instead analysis.question3a returned: (None, None, None)
+*** FAIL: test_cases\q3\1-question-3.6.test
+***     Did not return a (discount, noise, living reward) triple; instead analysis.question3a returned: (None, None, None)
+*** FAIL: test_cases\q3\2-question-3.2.test
+***     Did not return a (discount, noise, living reward) triple; instead analysis.question3b returned: (None, None, None)
+*** FAIL: test_cases\q3\3-question-3.3.test
+***     Did not return a (discount, noise, living reward) triple; instead analysis.question3c returned: (None, None, None)
+*** FAIL: test_cases\q3\4-question-3.4.test
+***     Did not return a (discount, noise, living reward) triple; instead analysis.question3d returned: (None, None, None)
+*** FAIL: test_cases\q3\5-question-3.5.test
+***     Did not return a (discount, noise, living reward) triple; instead analysis.question3e returned: (None, None, None)
+
+### Question q3: 0/6 ###
+
+
+Question q4
+===========
+
+*** Method not implemented: computeActionFromValues at line 92 of D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project3\reinforcement\valueIterationAgents.py
+*** FAIL: Terminated with a string exception.
+
+### Question q4: 0/0 ###
+
+
+Question q5
+===========
+
+*** Method not implemented: computeValueFromQValues at line 65 of D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project3\reinforcement\qlearningAgents.py
+*** FAIL: Terminated with a string exception.
+
+### Question q5: 0/5 ###
+
+
+Question q6
+===========
+
+*** Method not implemented: update at line 105 of D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project3\reinforcement\qlearningAgents.py
+*** FAIL: Terminated with a string exception.
+
+### Question q6: 0/2 ###
+
+
+Question q7
+===========
+
+*** FAIL: test_cases\q7\grade-agent.test
+***     Solution is not correct.
+***        Student solution: (none, none)
+*** Tests failed.
+
+### Question q7: 0/1 ###
+
+
+Question q8
+===========
+
+Beginning 2000 episodes of Training
+*** Method not implemented: getAction at line 91 of D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project3\reinforcement\qlearningAgents.py
+*** FAIL: Terminated with a string exception.
+
+### Question q8: 0/1 ###
+
+
+Question q9
+===========
+
+*** Method not implemented: getQValue at line 168 of D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project3\reinforcement\qlearningAgents.py
+*** FAIL: Terminated with a string exception.
+
+### Question q9: 0/4 ###
+
+
+Finished at 22:13:07
+
+Provisional grades
+==================
+Question q1: 0/5
+Question q2: 0/1
+Question q3: 0/6
+Question q4: 0/0
+Question q5: 0/5
+Question q6: 0/2
+Question q7: 0/1
+Question q8: 0/1
+Question q9: 0/4
+------------------
+Total: 0/25
+
+Your grades are NOT yet registered.  To register your grades, make sure
+to follow your instructor's guidelines to receive credit on your project.
+
+D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project3\reinforcement\grading.py:112: SyntaxWarning: "\ " is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\ "? A raw string is also an option.
+  |  \    /  + \    /  |

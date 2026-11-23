@@ -1,0 +1,31 @@
+# Reports & bundled submission archives
+report/
+PacMan_BaiTapLon.zip
+submission_project2/
+
+# AI prompts, agent plans/specs, and temporary helper tools
+PROMPT_ANTIGRAVITY_BAO_CAO.md
+docs/
+.tmp_pdf_tools/
+
+# Course lecture PDFs
+11_MDP.pdf
+12_RL.pdf
+13 Naive Bayes.pdf
+14_neural network.pdf
+
+# Intermediate / scratch / backup experiment outputs (keep results/main final files)
+results/shards/
+results/large/
+results/pilot/
+results/main/episodes-before-parallel.csv
+results/main/episodes-before-resume.csv
+
+# Python / virtual environment / OS artifacts
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.DS_Store
+Thumbs.db

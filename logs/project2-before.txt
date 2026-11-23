@@ -1,0 +1,92 @@
+Starting on 11-15 at 22:12:58
+
+Question q1
+===========
+
+Pacman died! Score: -749
+Pacman died! Score: 28
+Pacman died! Score: -403
+Pacman died! Score: -58
+Pacman died! Score: -226
+Pacman died! Score: -364
+Pacman emerges victorious! Score: 479
+Pacman died! Score: -82
+Pacman died! Score: -203
+Pacman died! Score: -302
+Average Score: -188.0
+Scores:        -749.0, 28.0, -403.0, -58.0, -226.0, -364.0, 479.0, -82.0, -203.0, -302.0
+Win Rate:      1/10 (0.10)
+Record:        Loss, Loss, Loss, Loss, Loss, Loss, Win, Loss, Loss, Loss
+*** FAIL: test_cases\q1\grade-agent.test (0 of 4 points)
+***     -188.0 average score (0 of 2 points)
+***         Grading scheme:
+***          < 500:  0 points
+***         >= 500:  1 points
+***         >= 1000:  2 points
+***     10 games not timed out (0 of 0 points)
+***         Grading scheme:
+***          < 10:  fail
+***         >= 10:  0 points
+***     1 wins (0 of 2 points)
+***         Grading scheme:
+***          < 1:  fail
+***         >= 1:  0 points
+***         >= 5:  1 points
+***         >= 10:  2 points
+
+### Question q1: 0/4 ###
+
+
+Question q2
+===========
+
+*** Method not implemented: getAction at line 139 of D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project2\multiagent\multiAgents.py
+*** FAIL: Terminated with a string exception.
+
+### Question q2: 0/5 ###
+
+
+Question q3
+===========
+
+*** Method not implemented: getAction at line 151 of D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project2\multiagent\multiAgents.py
+*** FAIL: Terminated with a string exception.
+
+### Question q3: 0/5 ###
+
+
+Question q4
+===========
+
+*** Method not implemented: getAction at line 166 of D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project2\multiagent\multiAgents.py
+*** FAIL: Terminated with a string exception.
+
+### Question q4: 0/5 ###
+
+
+Question q5
+===========
+
+*** Method not implemented: getAction at line 166 of D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project2\multiagent\multiAgents.py
+*** FAIL: Terminated with a string exception.
+
+### Question q5: 0/6 ###
+
+
+Finished at 22:13:04
+
+Provisional grades
+==================
+Question q1: 0/4
+Question q2: 0/5
+Question q3: 0/5
+Question q4: 0/5
+Question q5: 0/6
+------------------
+Total: 0/25
+
+Your grades are NOT yet registered.  To register your grades, make sure
+to follow your instructor's guidelines to receive credit on your project.
+
+D:\Study\Kỳ 1 năm 4\AI\Cuối kỳ\projects\project2\multiagent\grading.py:113: SyntaxWarning: "\ " is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\ "? A raw string is also an option.
+  |  \    /  + \    /  |
