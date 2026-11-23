@@ -2,16 +2,6 @@
 
 Đã chọn phần mở rộng: so sánh Q-Learning dạng bảng, xấp xỉ tuyến tính gốc, đặc trưng cải tiến và ablation trên mê cung 15×15, 25×25, 35×35. Mốc không học là ReflexAgent.
 
-## Mở báo cáo
-
-- `report/Bao_cao_PacMan.docx`: báo cáo Word, có bảng số liệu và hình.
-- `report/bao_cao.md`: nguồn báo cáo tiếng Việt.
-- `results/main/episodes.csv`: từng ván thực nghiệm chính.
-- `results/main/per_seed.csv`, `summary.csv`: tổng hợp theo seed và thuật toán.
-- `logs/project1.txt`, `project2.txt`, `project3.txt`, `project5.txt`: bằng chứng autograder.
-
-Bổ sung tên nhóm, thành viên, mã sinh viên, lớp và giảng viên trước khi nộp. Các kết quả là kết quả chạy thật trên máy hiện tại, không phải cam kết điểm của giảng viên.
-
 ## Môi trường
 
 Phiên hiện tại đã có `.venv` với PyTorch CPU, dùng numpy và matplotlib từ Python hệ thống. Python 3.14 đã chạy được bộ kiểm tra. Nếu chuyển máy, tạo môi trường mới (không sao chép `.venv`):
